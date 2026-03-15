@@ -60,7 +60,7 @@ with aba_lancamento:
             st.success(f"✅ Salvo! {categoria}: R$ {valor}")
             st.rerun()
         else:
-            st.error("Erro ao salvar no banco de dados.")
+           st.error(f"Erro detalhado do banco: {resposta.text}")
 
 # --- ABA 2: DASHBOARD E GRÁFICOS ---
 with aba_dashboard:
