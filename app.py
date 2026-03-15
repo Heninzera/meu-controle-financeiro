@@ -8,8 +8,8 @@ import plotly.express as px
 st.set_page_config(page_title="Meu Controle", page_icon="📱", layout="centered")
 
 # --- CONFIGURAÇÃO DO BANCO DE DADOS ---
-SUPABASE_URL = "SUA_URL_AQUI"
-SUPABASE_KEY = "SUA_CHAVE_API_AQUI"
+SUPABASE_URL = "https://ejlfobprtuvtxjhrecgw.supabase.co"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVqbGZvYnBydHV2dHhqaHJlY2d3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM1OTUxMjYsImV4cCI6MjA4OTE3MTEyNn0.0-9krcpcFX4FaeUDhdBajAuqoBZ-RwqtdpzMbtNk_PQ"
 URL_TABELA = f"{SUPABASE_URL}/rest/v1/lancamentos"
 
 HEADERS = {
